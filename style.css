@@ -1,3 +1,14 @@
-color {
-    color: black;
-}
+@font-face {
+    font-family: Lora;
+     src: url("assets/fonts/Lora-Regular.ttf");
+   }
+
+@font-face {
+    font-family: NotoSerifDisplay;
+     src: url("assets/fonts/NotoSerifDisplay-Regular.ttf");
+   }
+
+* {
+    box-sizing: border-box;
+  }
+
