@@ -4,9 +4,152 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <meta name="viewport" content="width=device-width">
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <nav class="navigation">
+                <ul class="navigation-list">
+                    <li class="navigation-item"><a href="#summary" class="navigation-link">Summary</a></li>
+                    <li class="navigation-item"><a href="#contacts" class="navigation-link">Contacts</a></li>
+                    <li class="navigation-item"><a href="#hard-skills" class="navigation-link">Hard Skills</a></li>
+                    <li class="navigation-item"><a href="#soft-skills" class="navigation-link">Soft Skills</a></li>
+                    <li class="navigation-item"><a href="#code-example" class="navigation-link">Code Example</a></li>
+                    <li class="navigation-item"><a href="#projects" class="navigation-link">Projects</a></li>
+                    <li class="navigation-item"><a href="#education" class="navigation-link">Education</a></li>
+                    <li class="navigation-item"><a href="#courses" class="navigation-link">Courses</a></li>
+                    <li class="navigation-item"><a href="#languages" class="navigation-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="vertical-container-1">
+
+                <section class="section" id="profile-photo">
+                    <h2>.</h2>
+                    <img src="./assets/png/profile_photo.png" alt="Profile photo" class="profile-photo">
+                </section>
+
+                <section class="section" id="contacts">
+                    <h2>contacts</h2>
+                    <ul class="contact-list">
+                        <li class="contact-item">+375 33 331 04 95</li>
+                        <li class="contact-item">kosyanchuk.ira@gmail.com</li>
+                        <li class="contact-item">IrinaK (@KosIrina)</li>
+                        <li class="contact-item">Minsk, Belarus</li>
+                    </ul>
+
+                </section>
+                
+                <section class="section" id="skills">
+                    <table class="table-skills">
+                        <tbody> 
+                            <tr>
+                                <td id="hard-skills"><h2>hard skills</h2></td>
+                                <td id="soft-skills"><h2>soft skills</h2></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <ul class="hard-skills-list">
+                                        <li class="hard-skills-item">HTML</li>
+                                        <li class="hard-skills-item">CSS</li>
+                                        <li class="hard-skills-item">JavaScript Basics</li>
+                                        <li class="hard-skills-item">Git, GitHub</li>
+                                        <li class="hard-skills-item">VS Code, IntelliJ IDEA</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul class="soft-skills-list">
+                                        <li class="soft-skills-item">Active learning</li>
+                                        <li class="soft-skills-item">Adaptability</li>
+                                        <li class="soft-skills-item">Attention to detail</li>
+                                        <li class="soft-skills-item">Teamwork</li>
+                                        <li class="soft-skills-item">Work ethic</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <section class="section" id="education">
+                    <h2>education</h2>
+                    <p class="university">Belarusian State University, 2018</p>
+                    <p>Faculty of International Relations</p>
+                    <p>International Private Law</p>
+                </section>
+
+                <section class="section" id="courses">
+                    <h2>courses</h2>
+                    <ul class="courses-list">
+                        <li class="courses-item">EPAM Online Summer BootCamp, 2021</li>
+                        <li class="courses-item">RS Schools JavaScript/Front-end. Stage 0 (in process)</li>
+                        <li class="courses-item">EPAM Automated Testing (in process)</li>
+                    </ul>
+                </section>
+
+                <section class="section" id="languages">
+                    <h2>languages</h2>
+                    <ul class="languages-list">
+                        <li class="language-item">Russian – native</li>
+                        <li class="language-item">English – B2 (Upper-Intermediate)</li>
+                        <li class="language-item">German – B1 (Pre-Intermediate)</li>
+                    </ul>
+
+                </section>
+            </div>
+
+            <div class="vertical-container-2">
+
+                <section class="section" id="name">
+                    <h2>.</h2>
+                    <p>Irina</p>
+                    <p>Kosyanchuk</p>
+                </section>
+
+                <section class="section" id="summary">
+                    <h2>summary</h2>
+                    <p>Holding a degree in law with 2 years of experience in the relevant industry. Lately considering a career switch due to showing more and more interest in IT sphere. Nowadays, focusing on the front-end development and attending the appropriate courses to study in this direction. Being eager to be challenged in order to grow and further improve my skills.</p>
+                </section>
+
+                <section class="section" id="code-example">
+                    <h2>code example</h2>
+                    <pre class="code">
+    <code>function greet() &#123;
+        return( 'hello world!' );
+    &#125;</code>
+                        <br>
+    <code>function multiply(a, b)&#123;
+        return a * b
+    &#125;</code>
+                    </pre>
+                </section>
+
+                <section class="section" id="projects">
+                    <h2>projects</h2>
+                    <p>CV (сurriculum vitae) - HTML, CSS</p>
+                    <a href="https://KosIrina.github.io/rsschool-cv/"><img src="./assets/png/project.png" alt="Project photo" class="project-photo">
+                    </a>
+                </section>
+            </div>
+        </div>
+    </main>
     
+    <footer class="footer">
+        <div class="container">
+            <a href="https://github.com/KosIrina" class="github-link"></a>
+            <p>&copy;	2022</p>
+            <a href="https://rs.school/js/" class="rss-link"></a>
+        </div>
+    </footer>
 </body>
 </html>
